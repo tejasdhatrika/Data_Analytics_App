@@ -19,7 +19,7 @@ pipeline {
                 script {
                     bat '''
                     call venv\\Scripts\\activate
-                    pytest test --maxfail=1 --disable-warnings -q
+                    pytest tests --maxfail=1 --disable-warnings -q
                     '''
                 }
             }
