@@ -30,15 +30,15 @@ pipeline {
         stage('Docker Build') {
             steps {
                 script {
-                    // Your Docker build steps here
+                    bat 'docker build -t my-python-app:latest .'
                 }
             }
         }
-        
         stage('Deploy to Minikube') {
             steps {
                 script {
-                    // Your Minikube deployment steps here
+                    // Deploy application using kubectl
+                    bat 'kubectl apply -f k8s\\deployment.yaml'
                 }
             }
         }
