@@ -74,8 +74,3 @@ Feel free to fork the repository and submit pull requests. For any issues or sug
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## Contact
-
-For any questions or further information, please contact:
-- **Name:** Your Name
-- **Email:** your.email@example.com
