@@ -2,12 +2,6 @@ pipeline {
     agent any
     
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/tejasdhatrika/Data_Analytics_App'
-            }
-        }
-        
         stage('Build') {
             steps {
                 script {
